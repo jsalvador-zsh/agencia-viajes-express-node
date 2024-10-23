@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3 {
+    font-family: 'Staatliches', cursive;
     color: #15B9D5;
 }
 h1 {
@@ -70,8 +71,10 @@ h3 {
     border-bottom: 5px solid white;
 }
 blockquote {
-    font-weight: bold;
+    border-left: solid 5px #15B9D5;
+    font-size: 1.2rem;
     line-height: 2;
+    padding-left: 1rem;
 }
 p {
     font-size: 1.2rem;
@@ -137,7 +140,10 @@ footer .nav a,
 }
 
 .proximos-viajes p {
-    font-size: .9rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 i {
     color: #DC135F;

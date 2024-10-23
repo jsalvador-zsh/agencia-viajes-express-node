@@ -1,5 +1,30 @@
 extends ./layouts/index
 block content
 
-    p Nosotros
-    img(src="/img/cupon.jpg", alt="")
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote En nuestra agencia de viajes, somos apasionados por crear experiencias inolvidables. Nos dedicamos a diseñar viajes a medida, cuidando cada detalle para que nuestros clientes puedan explorar el mundo de la manera que siempre soñaron. Con un equipo de profesionales expertos en turismo, ofrecemos soluciones personalizadas para todo tipo de viajero, desde aventureros en busca de destinos exóticos hasta familias que desean unas vacaciones relajantes.
+
+                p Nuestra misión es convertir cada viaje en una experiencia única y memorable. Creemos que viajar es mucho más que moverse de un lugar a otro; es una oportunidad para descubrir nuevas culturas, paisajes impresionantes y vivencias que enriquecen el alma. Nos comprometemos a brindar un servicio excepcional, garantizando calidad, seguridad y asesoramiento continuo antes, durante y después del viaje.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Tu seguridad es nuestra prioridad; por eso, nos aseguramos de que cada viaje esté respaldado por los más altos estándares de protección y confianza.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destino", class="img-fluid mb-4")
+                    h2.mb-4 Destinos
+                    p Descubre el mundo con nosotros: te llevamos a los destinos más impresionantes, desde paraísos exóticos hasta ciudades vibrantes llenas de historia y cultura."
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Precios
+                    p Viaja con la mejor relación calidad-precio; ofrecemos paquetes diseñados para todos los presupuestos, sin comprometer la calidad de tu experiencia.
